@@ -1,0 +1,100 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161364.jpg?size=626&ext=jpg&ga=GA1.1.969244278.1725800364&semt=ais_hybrid') 
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://img.freepik.com/free-photo/abstract-blur-hotel-interior_1203-8546.jpg?w=996&t=st=1725800452~exp=1725801052~hmac=fae769f018dd28503736208aac988a814356f15e9d3be40d12454194f411412a') no-repeat center center/cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+/* Projects Section */
+#projects {
+    padding: 2rem;
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    width: 45%;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    text-align: center;
+    color: red;
+}
+/* Thanking note section*/
+#thankingnote{
+    padding: 2rem;
+    text-align: center;
+    color:whitesmoke
+}
